@@ -4,8 +4,6 @@ import { useState, useEffect } from "react";
 export default function DinoTable() {
   const [dinos, setDinos] = useState([]);
 
-  console.log(dinos);
-
   const axios = require("axios");
 
   const baseURL = `${ip}/fdb/${network}/${database}/`;
