@@ -116,7 +116,9 @@ export default function DinoTable() {
                       </span>
                     </td>
                     <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
-                      <a href={dino.link}>{dino.dinosaurName}</a>
+                      <a href={dino.link} target="_blank" rel="noreferrer">
+                        {dino.dinosaurName}
+                      </a>
                     </td>
                   </tr>
                 ))}
